@@ -11,7 +11,6 @@ body {
 .header {
     height: 360px;
     width: 700px;
-     
     background-color:rgba(0,0,0,0.7);
     box-shadow: 0 0 20px gold;
     margin: auto;
@@ -21,22 +20,29 @@ body {
 .wind {
     height: 45%;
     width:100%;
-    display: flex;
     box-shadow: 0 0 20px gold; 
 } 
-
-
 
 .money {
     margin: auto;
     color: gold;
+    text-align: center;
+    padding-top: 40px; 
+    padding-bottom: 10px;
+   
+}
+
+.rusw {
+    margin: auto;
+    color: gold;
     text-align: center; 
+    font-size: 20px;
 }
 
 .second {
     height: 25%;
     width: 100%;
- box-shadow: 0 0 20px gold;
+    box-shadow: 0 0 20px gold;
     display: flex; 
 } 
 
@@ -81,6 +87,7 @@ body {
     font-size: 30px; 
     text-align: center;
     margin: auto;
+    cursor: pointer;
 }
 
 .butrestart {
@@ -102,7 +109,14 @@ body {
     font-size: 27px;
     margin-top: 20px; 
     text-align: center;
+    cursor: pointer;
+    transition: background 2s;
 }
+
+button:active {
+    background: rgba(255, 215, 0, 0.2);
+    transition: background 0s;
+  }
 
 .restart{
     font-weight: bold;
