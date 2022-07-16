@@ -4,8 +4,7 @@ body {
     margin: 0;
     font-size: 100%;
     font-weight: normal;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-						
+    font-family: 'Helvetica', 'Arial', sans-serif;					
 }
 
 .header {
@@ -29,7 +28,6 @@ body {
     text-align: center;
     padding-top: 40px; 
     padding-bottom: 10px;
-   
 }
 
 .rusw {
@@ -67,7 +65,7 @@ body {
     font-size: 60px; 
     text-align: center;
     margin: auto; 
-   } 
+} 
 
 
 .third{
@@ -116,7 +114,7 @@ body {
 button:active {
     background: rgba(255, 215, 0, 0.2);
     transition: background 0s;
-  }
+}
 
 .restart{
     font-weight: bold;

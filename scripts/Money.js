@@ -8,21 +8,25 @@ function randfun(arr){
 		return arr[randName];               
 } 
 
-
 let monetka = document.querySelector(".money");
 let rusw = document.querySelector(".rusw");
 let button = document.querySelector(".button");
-
-
-
-button.addEventListener("click", function() {
-  
+let timego = 3;
+button.addEventListener("click", function startgo() {
+  if (timego > 0) {
+    monetka.textContent="Flew!";
+    rusw.textContent=timego;
+    console.log(timego);
+    timego--;
+    setTimeout(startgo, 700);
+}
+else {
   let randmonet = randfun(randMon);
   monetka.textContent=randmonet.engl;
   rusw.textContent=randmonet.rusl;
-  
+  timego=3;
+}
 });
-
   
 let score=document.querySelector(".score");
 let buton=document.querySelector(".buton");
@@ -42,7 +46,6 @@ butonn.addEventListener("click", function (){
 
 let buttontwo = document.querySelector(".buttontwo");
 let restart = document.querySelector(".restart");
-
 buttontwo.addEventListener("click", function(){
       monetka.textContent="HEADS or TAILS?";
       rusw.textContent="(орёл или решка?)"
