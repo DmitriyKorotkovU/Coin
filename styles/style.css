@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    height: 410px;
+    height: 360px;
     width: 700px;
      
     background-color:rgba(0,0,0,0.7);
@@ -29,7 +29,8 @@ body {
 
 .money {
     margin: auto;
-    color: gold; 
+    color: gold;
+    text-align: center; 
 }
 
 .second {
@@ -91,19 +92,19 @@ body {
 }
 
 .button,.buttontwo{
-    height: 60px;
+    height: 100px;
     width: 700px;
     background-color:rgba(0,0,0,0.7);
     box-shadow: 0 0 20px gold;
     color: gold;
     margin: auto;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 27px;
     margin-top: 20px; 
     text-align: center;
 }
 
 .restart{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 27px;
 }
